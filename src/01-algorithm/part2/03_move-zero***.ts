@@ -1,8 +1,9 @@
 
 /**
- * 移动数组中所有值是0的元素到数组末尾（要求在原数组基础上修改） 时间复杂度O(n^2)
+ * 移动数组中所有值是0的元素到数组末尾（要求在原数组基础上修改）
  * @param arr number arr
- * @returns
+ * @returns void
+ * TC: (n^2)
  */
 function moveZero1(arr: number[]): void {
   const length = arr.length
@@ -19,9 +20,10 @@ function moveZero1(arr: number[]): void {
 }
 
 /**
- * 移动数组中所有值是0的元素到数组末尾 (双指针思路) 时间复杂度O(n)
+ * 移动数组中所有值是0的元素到数组末尾 (双指针思路)
  * @param arr number arr
- * @returns
+ * @returns void
+ * TC: O(n)
  */
 function moveZero2(arr: number[]): void {
   const length = arr.length
